@@ -6,3 +6,6 @@ function countdown(callback){
 function createMultiplier(multiplierValue){
   return (n)=>{n*multiplierValue}
 }
+
+var doubler = createMultiplier(2)
+var tripler = createMultiplier(3)
