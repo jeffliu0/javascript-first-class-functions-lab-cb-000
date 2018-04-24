@@ -1,10 +1,10 @@
 function countdown(callback){
   window.setTimeout()
-  return callback
+  callback()
 }
 
 function createMultiplier(multiplierValue){
-  return (n)=>{n*multiplierValue}
+  return (value)=>{value*multiplierValue}
 }
 
 var doubler = createMultiplier(2)
