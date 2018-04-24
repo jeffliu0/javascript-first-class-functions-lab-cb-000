@@ -6,7 +6,7 @@ function createMultiplier(multiplierValue){
   return value=>{value*multiplierValue}
 }
 
-var doubler = n=> {n*createMultiplier(2)}
+var doubler = createMultiplier(2)
 var tripler = createMultiplier(3)
 
 function multiplier(value1, value2){
