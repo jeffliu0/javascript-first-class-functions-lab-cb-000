@@ -4,5 +4,5 @@ function countdown(callback){
 }
 
 function createMultiplier(multiplierValue){
-  return multiplierValue()
+  return (n)=>{n*multiplierValue}
 }
