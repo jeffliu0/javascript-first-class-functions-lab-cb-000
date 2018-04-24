@@ -15,4 +15,4 @@ function multiplier(value1, value2){
 }
 
 doublerWithBind = multiplier(2).bind(doubler)
-triplerWithBind = multiplier(3)
+triplerWithBind = multiplier(3).bind(tripler)
