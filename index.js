@@ -14,5 +14,5 @@ function multiplier(value1, value2){
   return value1 * value2
 }
 
-doublerWithBind = multiplier(2).bind(doubler)
-triplerWithBind = multiplier(3).bind(tripler)
+var doublerWithBind = multiplier(2).bind(doubler)
+var triplerWithBind = multiplier(3).bind(tripler)
