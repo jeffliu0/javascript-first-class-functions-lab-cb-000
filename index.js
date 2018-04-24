@@ -15,4 +15,4 @@ function multiplier(value1, value2){
 }
 
 var doublerWithBind = multiplier.bind(doubler)
-var triplerWithBind = multiplier(3).bind(tripler)
+var triplerWithBind = multiplier.bind(tripler)
